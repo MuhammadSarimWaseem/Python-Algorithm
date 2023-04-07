@@ -23,3 +23,17 @@ n = 0
 for i in range(9):
     n = n+1
     print("current number:", n, "previous number:", n-1, "sum:", i+n)
+
+
+# Display numbers from -10 to -1 using for loop
+
+for i in range(-10, 0):
+    print(i)
+
+
+# Calculate the cube of all numbers from 1 to a given number
+
+n = int(input("enter a number"))
+for i in range(1, n+1):
+    x = i**3
+    print("The cube of ", i, "is", x)
